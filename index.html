@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js/app.js" defer></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Школа Дракона</div>
+						<div class="layers__title">Знания создают чудеса</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+			</header>
+		
+			<article class="main-article" style="background-image: url(img/dungeon.jpg);">
+				<div class="main-article__content">
+					<h2 class="main-article__header">Добро пожаловать</h2>
+					<p class="main-article__paragraph">Здесь вы сможете изучить программирование и 3д печать, чтобы создавать чудесные миры и реализовывать весь потенциал своего воображения. Раскройте свои способности и откройте новый мир чудес и волшебства вместе со школой дракона.</p>
+				</div>
+			</article>
+				    <section id="services">
+        <div class="service">
+            <img src="image1.png" alt="Услуга 1">
+            <h3>Программирование</h3>
+            <p>Курсы по Python, JavaScript, C++ и другим языкам программирования.</p>
+        </div>
+        <div class="service">
+            <img src="image2.png" alt="Услуга 2">
+            <h3>3D-моделирование и печать</h3>
+            <p>Обучение основам 3D-дизайна и работы с 3D-принтерами.</p>
+        </div>
+        <div class="service">
+            <img src="image3.png" alt="Услуга 3">
+            <h3>Подготовка к ЕГЭ по информатике</h3>
+            <p>Пройдите не просто подготовку, а получите настоящую базу и сдайте экзамен на высокие баллы.</p>
+        </div>
+    </section>
+        <h3>Оставить заявку</h3>
+	    <section id="contact-form">
+        <form action="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec" method="POST">
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон:</label>
+                <input type="phone" id="phone" name="phone" required>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+		</div>
+	</div>
+	
+
+</body>
+</html>
